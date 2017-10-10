@@ -39,10 +39,8 @@
 .col-3 {
 	width: 32%;
   float: left;
-}
-
-[class*="col-"] {
-	margin-left: 2%;
+  margin-left: 2%;
+  margin-top: 2%;
 }
 
 .first {
