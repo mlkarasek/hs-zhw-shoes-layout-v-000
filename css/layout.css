@@ -1,22 +1,50 @@
+/********** Fixes **********/
+
+* {
+  margin:0;
+  padding:0;
+  border:0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  height: 0;
+  line-height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+/* Posititoning Classes */
+
 .col-1 {
-  float: left;
-  width: 64%;
+	float: left;
+	width: 64%;
+	height: 616px;
 }
 
 .col-2 {
-  float: left;
-  width: 31%;
+	float: right;
+	width: 31%;
+	height: 616px;
 }
 
 .col-3 {
-  float: right;
-  width: 31%;
+	width: 31%;
+  float: left;
 }
 
-#details {
-  padding: 45px;
+.first {
+	margin-left: 0%;
 }
 
-.border_right{
+.border_right {
   padding: 25px;
 }
